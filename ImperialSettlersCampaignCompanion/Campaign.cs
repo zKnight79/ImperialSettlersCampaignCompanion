@@ -15,6 +15,8 @@ namespace ImperialSettlersCampaignCompanion
         private const string FILE_EXTENSION = ".isc";
 
         public string Name { get; set; }
+        public int Chapter { get; set; } = 1;
+
         [JsonIgnore]
         public Faction PlayerFaction { get; private set; }
         [JsonIgnore]

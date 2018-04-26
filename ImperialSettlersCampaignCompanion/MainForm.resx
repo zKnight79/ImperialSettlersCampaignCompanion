@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_NewCampaign.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>12</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button_LoadCampaign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -169,6 +169,276 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_LoadCampaign.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label_Separator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label_Separator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 55</value>
+  </data>
+  <data name="label_Separator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>758, 2</value>
+  </data>
+  <data name="label_Separator.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_Separator.Name" xml:space="preserve">
+    <value>label_Separator</value>
+  </data>
+  <data name="&gt;&gt;label_Separator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Separator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_Separator.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label_CampaignName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 66</value>
+  </data>
+  <data name="label_CampaignName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="label_CampaignName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_CampaignName.Text" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="&gt;&gt;label_CampaignName.Name" xml:space="preserve">
+    <value>label_CampaignName</value>
+  </data>
+  <data name="&gt;&gt;label_CampaignName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_CampaignName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_CampaignName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label_PlayerFaction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_PlayerFaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 66</value>
+  </data>
+  <data name="label_PlayerFaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="label_PlayerFaction.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_PlayerFaction.Text" xml:space="preserve">
+    <value>Player Faction</value>
+  </data>
+  <data name="&gt;&gt;label_PlayerFaction.Name" xml:space="preserve">
+    <value>label_PlayerFaction</value>
+  </data>
+  <data name="&gt;&gt;label_PlayerFaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_PlayerFaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_PlayerFaction.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_ForeignFaction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_ForeignFaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 66</value>
+  </data>
+  <data name="label_ForeignFaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="label_ForeignFaction.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label_ForeignFaction.Text" xml:space="preserve">
+    <value>Foreign Faction</value>
+  </data>
+  <data name="&gt;&gt;label_ForeignFaction.Name" xml:space="preserve">
+    <value>label_ForeignFaction</value>
+  </data>
+  <data name="&gt;&gt;label_ForeignFaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ForeignFaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_ForeignFaction.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox_PlayerFaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 92</value>
+  </data>
+  <data name="textBox_PlayerFaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="textBox_PlayerFaction.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox_PlayerFaction.Name" xml:space="preserve">
+    <value>textBox_PlayerFaction</value>
+  </data>
+  <data name="&gt;&gt;textBox_PlayerFaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_PlayerFaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_PlayerFaction.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBox_ForeignFaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 92</value>
+  </data>
+  <data name="textBox_ForeignFaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="textBox_ForeignFaction.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox_ForeignFaction.Name" xml:space="preserve">
+    <value>textBox_ForeignFaction</value>
+  </data>
+  <data name="&gt;&gt;textBox_ForeignFaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ForeignFaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ForeignFaction.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox_CampaignName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 92</value>
+  </data>
+  <data name="textBox_CampaignName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="textBox_CampaignName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox_CampaignName.Name" xml:space="preserve">
+    <value>textBox_CampaignName</value>
+  </data>
+  <data name="&gt;&gt;textBox_CampaignName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_CampaignName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_CampaignName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 66</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Foreign Faction</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_Chapter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 92</value>
+  </data>
+  <data name="textBox_Chapter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_Chapter.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="textBox_Chapter.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_Chapter.Name" xml:space="preserve">
+    <value>textBox_Chapter</value>
+  </data>
+  <data name="&gt;&gt;textBox_Chapter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Chapter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_Chapter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_Chapter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Chapter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 66</value>
+  </data>
+  <data name="label_Chapter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="label_Chapter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label_Chapter.Text" xml:space="preserve">
+    <value>Chapter</value>
+  </data>
+  <data name="&gt;&gt;label_Chapter.Name" xml:space="preserve">
+    <value>label_Chapter</value>
+  </data>
+  <data name="&gt;&gt;label_Chapter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Chapter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_Chapter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_GameReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_GameReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 12</value>
+  </data>
+  <data name="button_GameReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 40</value>
+  </data>
+  <data name="button_GameReport.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button_GameReport.Text" xml:space="preserve">
+    <value>Game Report</value>
+  </data>
+  <data name="&gt;&gt;button_GameReport.Name" xml:space="preserve">
+    <value>button_GameReport</value>
+  </data>
+  <data name="&gt;&gt;button_GameReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_GameReport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_GameReport.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

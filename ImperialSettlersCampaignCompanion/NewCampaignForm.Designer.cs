@@ -84,8 +84,10 @@
             // 
             // textBox_PlayerFaction
             // 
+            this.textBox_PlayerFaction.BackColor = System.Drawing.Color.GhostWhite;
             resources.ApplyResources(this.textBox_PlayerFaction, "textBox_PlayerFaction");
             this.textBox_PlayerFaction.Name = "textBox_PlayerFaction";
+            this.textBox_PlayerFaction.ReadOnly = true;
             // 
             // button_RemovePlayerFaction
             // 
@@ -113,8 +115,10 @@
             // 
             // textBox_ForeignFaction
             // 
+            this.textBox_ForeignFaction.BackColor = System.Drawing.Color.GhostWhite;
             resources.ApplyResources(this.textBox_ForeignFaction, "textBox_ForeignFaction");
             this.textBox_ForeignFaction.Name = "textBox_ForeignFaction";
+            this.textBox_ForeignFaction.ReadOnly = true;
             // 
             // label_NameError
             // 
