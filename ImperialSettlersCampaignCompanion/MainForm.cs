@@ -65,6 +65,7 @@ namespace ImperialSettlersCampaignCompanion
             #region Campaign Info
             textBox_CampaignName.Text = Campaign.Name;
             textBox_Chapter.Text = Campaign.Chapter.ToString();
+            textBox_VictoryPoints.Text = Campaign.VictoryPoints.ToString();
             textBox_PlayerFaction.Text = Campaign.PlayerFaction.Name;
             textBox_ForeignFaction.Text = Campaign.ForeignFaction.Name;
             #endregion

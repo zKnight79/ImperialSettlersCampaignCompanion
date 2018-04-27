@@ -1,5 +1,6 @@
 ﻿using ImperialSettlersCampaignCompanion.Data;
 using ImperialSettlersCampaignCompanion.Data.Factions;
+using ImperialSettlersCampaignCompanion.Data.Provinces;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,11 @@ namespace ImperialSettlersCampaignCompanion
     {
         private const string FILE_EXTENSION = ".isc";
 
+        #region Global Campaign Informations
         public string Name { get; set; }
         public int Chapter { get; set; } = 1;
+
+        public int VictoryPoints { get; set; } = 0;
 
         [JsonIgnore]
         public Faction PlayerFaction { get; private set; }
@@ -44,6 +48,36 @@ namespace ImperialSettlersCampaignCompanion
                 ForeignFaction = Database.Instance.GetFaction(value);
             }
         }
+        #endregion
+
+        [JsonIgnore]
+        public List<Province> Provinces { get; } = new List<Province>();
+
+        public Tuple<int, int, bool>[] ProvinceAcquired
+        {
+            get
+            {
+                List<Tuple<int, int, bool>> list = new List<Tuple<int, int, bool>>();
+
+                Provinces.ForEach(province =>
+                {
+                    list.Add(new Tuple<int, int, bool>(province.Id, province.ControlCost, province.NeedToPayResources));
+                });
+
+                return list.ToArray();
+            }
+            set
+            {
+                List<Tuple<int, int, bool>> list = value.ToList();
+                list.ForEach(tuple =>
+                {
+                    Province province = Database.Instance.GetProvince(tuple.Item1);
+                    province.ControlCost = tuple.Item2;
+                    province.NeedToPayResources = tuple.Item3;
+                    Provinces.Add(province);
+                });
+            }
+        }
 
         public Campaign() { }
 
@@ -68,7 +102,7 @@ namespace ImperialSettlersCampaignCompanion
         {
             string regexSearch = new string(Path.GetInvalidFileNameChars()) + new string(Path.GetInvalidPathChars());
             Regex r = new Regex(string.Format("[{0}]", Regex.Escape(regexSearch)));
-            
+
             return r.Replace(baseName, "") + FILE_EXTENSION;
         }
 
@@ -95,6 +129,8 @@ namespace ImperialSettlersCampaignCompanion
             return string.Format("{0} : {1} ({2})", Name, PlayerFaction.Name, ForeignFaction.Name);
         }
 
+        #region Computed Production
+        [JsonIgnore]
         public int ProdWorker
         {
             get
@@ -102,6 +138,7 @@ namespace ImperialSettlersCampaignCompanion
                 return PlayerFaction.ProdWorker;
             }
         }
+        [JsonIgnore]
         public int ProdWeapon
         {
             get
@@ -109,6 +146,7 @@ namespace ImperialSettlersCampaignCompanion
                 return PlayerFaction.ProdWeapon;
             }
         }
+        [JsonIgnore]
         public int ProdWood
         {
             get
@@ -116,13 +154,16 @@ namespace ImperialSettlersCampaignCompanion
                 return PlayerFaction.ProdWood;
             }
         }
+        [JsonIgnore]
         public int ProdStone
         {
             get
             {
-                return PlayerFaction.ProdStone;
+                return PlayerFaction.ProdStone
+                    + this.ProdBonusStone;
             }
         }
+        [JsonIgnore]
         public int ProdFood
         {
             get
@@ -130,6 +171,7 @@ namespace ImperialSettlersCampaignCompanion
                 return PlayerFaction.ProdFood;
             }
         }
+        [JsonIgnore]
         public int ProdGold
         {
             get
@@ -137,6 +179,7 @@ namespace ImperialSettlersCampaignCompanion
                 return PlayerFaction.ProdGold;
             }
         }
+        [JsonIgnore]
         public int ProdCardAny
         {
             get
@@ -144,6 +187,7 @@ namespace ImperialSettlersCampaignCompanion
                 return 0;
             }
         }
+        [JsonIgnore]
         public int ProdCardFaction
         {
             get
@@ -151,6 +195,7 @@ namespace ImperialSettlersCampaignCompanion
                 return 0;
             }
         }
+        [JsonIgnore]
         public int ProdCardCommon
         {
             get
@@ -158,5 +203,27 @@ namespace ImperialSettlersCampaignCompanion
                 return 0;
             }
         }
+        #endregion
+
+        public void Acquire(Province province)
+        {
+            Provinces.Add(province);
+            province.ApplyAcquire(this);
+        }
+        public void LoseControl(Province province)
+        {
+            if (Provinces.Remove(province))
+            {
+                province.ApplyLoseControl(this);
+            }
+        }
+
+        #region Bonus Production
+        public int ProdBonusStone { get; set; }
+        #endregion
+
+        #region Bonus Start
+        public List<string> StartBonuses { get; } = new List<string>();
+        #endregion
     }
 }

@@ -126,7 +126,22 @@
   <data name="JAPANESE_NAME" xml:space="preserve">
     <value>Japonais</value>
   </data>
+  <data name="MISTYMOUNTAINS_NAME" xml:space="preserve">
+    <value>Montagnes Brumeuses</value>
+  </data>
+  <data name="MISTYMOUNTAINS_TRAIT" xml:space="preserve">
+    <value>Augmentez votre Production by +1 Pierre (permanent)</value>
+  </data>
   <data name="ROMAN_NAME" xml:space="preserve">
     <value>Romains</value>
+  </data>
+  <data name="WILDFORESTS_NAME" xml:space="preserve">
+    <value>Fôrets Sauvages</value>
+  </data>
+  <data name="WILDFORESTS_STARTBONUS" xml:space="preserve">
+    <value>+2 Bois</value>
+  </data>
+  <data name="WILDFORESTS_TRAIT" xml:space="preserve">
+    <value>Commencez la prochaine partie avec +2 Bois</value>
   </data>
 </root>

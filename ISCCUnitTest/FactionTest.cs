@@ -7,7 +7,7 @@ using ImperialSettlersCampaignCompanion.i18n;
 namespace ISCCUnitTest
 {
     [TestClass]
-    public class DatabaseFactionsTest
+    public class FactionTest
     {
         Database db = Database.Instance;
 

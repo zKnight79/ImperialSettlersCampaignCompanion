@@ -62,6 +62,8 @@
             this.textBox_ProdCardCommon = new System.Windows.Forms.TextBox();
             this.textBox_ProdCardFaction = new System.Windows.Forms.TextBox();
             this.toolTip_Production = new System.Windows.Forms.ToolTip(this.components);
+            this.textBox_VictoryPoints = new System.Windows.Forms.TextBox();
+            this.label_VictoryPoints = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Worker)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Wood)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Stone)).BeginInit();
@@ -293,10 +295,24 @@
             this.toolTip_Production.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip_Production.ToolTipTitle = "Production";
             // 
+            // textBox_VictoryPoints
+            // 
+            this.textBox_VictoryPoints.BackColor = System.Drawing.Color.GhostWhite;
+            resources.ApplyResources(this.textBox_VictoryPoints, "textBox_VictoryPoints");
+            this.textBox_VictoryPoints.Name = "textBox_VictoryPoints";
+            this.textBox_VictoryPoints.ReadOnly = true;
+            // 
+            // label_VictoryPoints
+            // 
+            resources.ApplyResources(this.label_VictoryPoints, "label_VictoryPoints");
+            this.label_VictoryPoints.Name = "label_VictoryPoints";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBox_VictoryPoints);
+            this.Controls.Add(this.label_VictoryPoints);
             this.Controls.Add(this.textBox_ProdCardFaction);
             this.Controls.Add(this.textBox_ProdCardCommon);
             this.Controls.Add(this.textBox_ProdCardAny);
@@ -379,6 +395,8 @@
         private System.Windows.Forms.TextBox textBox_ProdCardCommon;
         private System.Windows.Forms.TextBox textBox_ProdCardFaction;
         private System.Windows.Forms.ToolTip toolTip_Production;
+        private System.Windows.Forms.TextBox textBox_VictoryPoints;
+        private System.Windows.Forms.Label label_VictoryPoints;
     }
 }
 

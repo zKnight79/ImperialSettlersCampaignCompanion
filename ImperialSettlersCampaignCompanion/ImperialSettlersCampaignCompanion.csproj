@@ -52,10 +52,19 @@
   <ItemGroup>
     <Compile Include="Campaign.cs" />
     <Compile Include="Data\Database.cs" />
-    <Compile Include="Data\Database.Factions.cs" />
+    <Compile Include="Data\Database.Factions.cs">
+      <DependentUpon>Database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Database.Provinces.cs">
+      <DependentUpon>Database.cs</DependentUpon>
+    </Compile>
     <Compile Include="Data\Factions\Barbarians.cs" />
     <Compile Include="Data\Factions\Egyptians.cs" />
     <Compile Include="Data\Factions\Japaneses.cs" />
+    <Compile Include="Data\Provinces\MistyMountains.cs" />
+    <Compile Include="Data\Provinces\Province.cs" />
+    <Compile Include="Data\Provinces\Unkeep.cs" />
+    <Compile Include="Data\Provinces\WildForests.cs" />
     <Compile Include="DiceRoller.cs" />
     <Compile Include="i18n\Strings.Designer.cs">
       <AutoGen>True</AutoGen>

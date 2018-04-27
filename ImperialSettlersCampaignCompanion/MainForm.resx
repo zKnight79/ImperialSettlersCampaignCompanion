@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_NewCampaign.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>32</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button_LoadCampaign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -169,7 +169,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_LoadCampaign.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>31</value>
   </data>
   <data name="label_Separator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -193,7 +193,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Separator.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>30</value>
   </data>
   <data name="label_CampaignName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
@@ -220,7 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_CampaignName.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>29</value>
   </data>
   <data name="label_PlayerFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -253,7 +253,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_PlayerFaction.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>28</value>
   </data>
   <data name="label_ForeignFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -286,7 +286,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_ForeignFaction.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>27</value>
   </data>
   <data name="textBox_PlayerFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -310,7 +310,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_PlayerFaction.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>26</value>
   </data>
   <data name="textBox_ForeignFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -334,7 +334,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ForeignFaction.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>25</value>
   </data>
   <data name="textBox_CampaignName.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 92</value>
@@ -355,7 +355,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_CampaignName.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>24</value>
   </data>
   <data name="textBox_Chapter.Location" type="System.Drawing.Point, System.Drawing">
     <value>216, 92</value>
@@ -379,7 +379,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_Chapter.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>22</value>
   </data>
   <data name="label_Chapter.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
@@ -409,7 +409,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Chapter.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>23</value>
   </data>
   <data name="button_GameReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -439,7 +439,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_GameReport.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>21</value>
   </data>
   <data name="label_Production.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
@@ -469,7 +469,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Production.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>20</value>
   </data>
   <data name="pictureBox_Worker.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 162</value>
@@ -499,7 +499,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_Worker.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>19</value>
   </data>
   <data name="pictureBox_Wood.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -529,7 +529,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_Wood.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
   </data>
   <data name="pictureBox_Stone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -559,7 +559,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_Stone.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="pictureBox_Food.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -589,7 +589,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_Food.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="pictureBox_Gold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -619,7 +619,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_Gold.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="pictureBox_Weapon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -649,11 +649,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_Weapon.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
-  <metadata name="toolTip_Production.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="pictureBox_CardAny.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -682,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_CardAny.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="pictureBox_CardCommon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -712,7 +709,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_CardCommon.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="pictureBox_CardFaction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -742,7 +739,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox_CardFaction.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="textBox_ProdWorker.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 175</value>
@@ -766,7 +763,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdWorker.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="textBox_ProdWood.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 229</value>
@@ -790,7 +787,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdWood.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="textBox_ProdStone.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 283</value>
@@ -814,7 +811,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdStone.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="textBox_ProdFood.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 337</value>
@@ -838,7 +835,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdFood.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="textBox_ProdGold.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 391</value>
@@ -862,7 +859,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdGold.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="textBox_ProdWeapon.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 445</value>
@@ -886,7 +883,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdWeapon.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="textBox_ProdCardAny.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 499</value>
@@ -910,7 +907,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdCardAny.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="textBox_ProdCardCommon.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 553</value>
@@ -934,7 +931,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdCardCommon.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="textBox_ProdCardFaction.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 607</value>
@@ -958,7 +955,61 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ProdCardFaction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_VictoryPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 92</value>
+  </data>
+  <data name="textBox_VictoryPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_VictoryPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="textBox_VictoryPoints.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_VictoryPoints.Name" xml:space="preserve">
+    <value>textBox_VictoryPoints</value>
+  </data>
+  <data name="&gt;&gt;textBox_VictoryPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_VictoryPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_VictoryPoints.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label_VictoryPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label_VictoryPoints.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_VictoryPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 66</value>
+  </data>
+  <data name="label_VictoryPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="label_VictoryPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label_VictoryPoints.Text" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="&gt;&gt;label_VictoryPoints.Name" xml:space="preserve">
+    <value>label_VictoryPoints</value>
+  </data>
+  <data name="&gt;&gt;label_VictoryPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_VictoryPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_VictoryPoints.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

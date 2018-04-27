@@ -17,6 +17,7 @@ namespace ImperialSettlersCampaignCompanion.Data
         private Database()
         {
             SetFactions();
+            SetProvinces();
         }
     }
 }

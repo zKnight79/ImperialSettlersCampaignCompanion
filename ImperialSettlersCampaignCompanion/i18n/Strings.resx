@@ -126,7 +126,22 @@
   <data name="JAPANESE_NAME" xml:space="preserve">
     <value>Japaneses</value>
   </data>
+  <data name="MISTYMOUNTAINS_NAME" xml:space="preserve">
+    <value>Misty Mountains</value>
+  </data>
+  <data name="MISTYMOUNTAINS_TRAIT" xml:space="preserve">
+    <value>Increase your Production by +1 Stone permanently</value>
+  </data>
   <data name="ROMAN_NAME" xml:space="preserve">
     <value>Romans</value>
+  </data>
+  <data name="WILDFORESTS_NAME" xml:space="preserve">
+    <value>Wild Forests</value>
+  </data>
+  <data name="WILDFORESTS_STARTBONUS" xml:space="preserve">
+    <value>+2 Wood</value>
+  </data>
+  <data name="WILDFORESTS_TRAIT" xml:space="preserve">
+    <value>Begin the next game with +2 Wood</value>
   </data>
 </root>

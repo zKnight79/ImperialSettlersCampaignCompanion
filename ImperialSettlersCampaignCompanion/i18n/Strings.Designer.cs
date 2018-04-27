@@ -88,11 +88,56 @@ namespace ImperialSettlersCampaignCompanion.i18n {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Misty Mountains.
+        /// </summary>
+        public static string MISTYMOUNTAINS_NAME {
+            get {
+                return ResourceManager.GetString("MISTYMOUNTAINS_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Increase your Production by +1 Stone permanently.
+        /// </summary>
+        public static string MISTYMOUNTAINS_TRAIT {
+            get {
+                return ResourceManager.GetString("MISTYMOUNTAINS_TRAIT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Romans.
         /// </summary>
         public static string ROMAN_NAME {
             get {
                 return ResourceManager.GetString("ROMAN_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Wild Forests.
+        /// </summary>
+        public static string WILDFORESTS_NAME {
+            get {
+                return ResourceManager.GetString("WILDFORESTS_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à +2 Wood.
+        /// </summary>
+        public static string WILDFORESTS_STARTBONUS {
+            get {
+                return ResourceManager.GetString("WILDFORESTS_STARTBONUS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Begin the next game with +2 Wood.
+        /// </summary>
+        public static string WILDFORESTS_TRAIT {
+            get {
+                return ResourceManager.GetString("WILDFORESTS_TRAIT", resourceCulture);
             }
         }
     }
