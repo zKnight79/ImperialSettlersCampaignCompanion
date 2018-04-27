@@ -94,5 +94,69 @@ namespace ImperialSettlersCampaignCompanion
         {
             return string.Format("{0} : {1} ({2})", Name, PlayerFaction.Name, ForeignFaction.Name);
         }
+
+        public int ProdWorker
+        {
+            get
+            {
+                return PlayerFaction.ProdWorker;
+            }
+        }
+        public int ProdWeapon
+        {
+            get
+            {
+                return PlayerFaction.ProdWeapon;
+            }
+        }
+        public int ProdWood
+        {
+            get
+            {
+                return PlayerFaction.ProdWood;
+            }
+        }
+        public int ProdStone
+        {
+            get
+            {
+                return PlayerFaction.ProdStone;
+            }
+        }
+        public int ProdFood
+        {
+            get
+            {
+                return PlayerFaction.ProdFood;
+            }
+        }
+        public int ProdGold
+        {
+            get
+            {
+                return PlayerFaction.ProdGold;
+            }
+        }
+        public int ProdCardAny
+        {
+            get
+            {
+                return 0;
+            }
+        }
+        public int ProdCardFaction
+        {
+            get
+            {
+                return 0;
+            }
+        }
+        public int ProdCardCommon
+        {
+            get
+            {
+                return 0;
+            }
+        }
     }
 }

@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_NewCampaign.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>30</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button_LoadCampaign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -169,7 +169,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_LoadCampaign.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>29</value>
   </data>
   <data name="label_Separator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -178,7 +178,7 @@
     <value>12, 55</value>
   </data>
   <data name="label_Separator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>758, 2</value>
+    <value>858, 2</value>
   </data>
   <data name="label_Separator.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -193,7 +193,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Separator.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>28</value>
+  </data>
+  <data name="label_CampaignName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
   <data name="label_CampaignName.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 66</value>
@@ -217,13 +220,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_CampaignName.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>27</value>
+  </data>
+  <data name="label_PlayerFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label_PlayerFaction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
   <data name="label_PlayerFaction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label_PlayerFaction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 66</value>
+    <value>468, 66</value>
   </data>
   <data name="label_PlayerFaction.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 23</value>
@@ -244,13 +253,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_PlayerFaction.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>26</value>
+  </data>
+  <data name="label_ForeignFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label_ForeignFaction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
   <data name="label_ForeignFaction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label_ForeignFaction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>575, 66</value>
+    <value>675, 66</value>
   </data>
   <data name="label_ForeignFaction.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 23</value>
@@ -271,10 +286,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_ForeignFaction.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>25</value>
+  </data>
+  <data name="textBox_PlayerFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="textBox_PlayerFaction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 92</value>
+    <value>468, 92</value>
   </data>
   <data name="textBox_PlayerFaction.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -292,10 +310,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_PlayerFaction.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>24</value>
+  </data>
+  <data name="textBox_ForeignFaction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="textBox_ForeignFaction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>575, 92</value>
+    <value>675, 92</value>
   </data>
   <data name="textBox_ForeignFaction.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -313,7 +334,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_ForeignFaction.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>23</value>
   </data>
   <data name="textBox_CampaignName.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 92</value>
@@ -334,34 +355,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_CampaignName.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>575, 66</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Foreign Faction</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>22</value>
   </data>
   <data name="textBox_Chapter.Location" type="System.Drawing.Point, System.Drawing">
     <value>216, 92</value>
@@ -385,7 +379,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_Chapter.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>20</value>
+  </data>
+  <data name="label_Chapter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
   <data name="label_Chapter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -412,13 +409,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Chapter.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>21</value>
+  </data>
+  <data name="button_GameReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="button_GameReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="button_GameReport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>590, 12</value>
+    <value>690, 12</value>
   </data>
   <data name="button_GameReport.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 40</value>
@@ -439,6 +439,525 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_GameReport.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label_Production.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label_Production.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Production.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 136</value>
+  </data>
+  <data name="label_Production.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="label_Production.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label_Production.Text" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="&gt;&gt;label_Production.Name" xml:space="preserve">
+    <value>label_Production</value>
+  </data>
+  <data name="&gt;&gt;label_Production.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Production.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_Production.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pictureBox_Worker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 162</value>
+  </data>
+  <data name="pictureBox_Worker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_Worker.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_Worker.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <metadata name="toolTip_Production.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="pictureBox_Worker.ToolTip" xml:space="preserve">
+    <value>Worker(s)</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Worker.Name" xml:space="preserve">
+    <value>pictureBox_Worker</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Worker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Worker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Worker.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pictureBox_Wood.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_Wood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 216</value>
+  </data>
+  <data name="pictureBox_Wood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_Wood.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_Wood.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="pictureBox_Wood.ToolTip" xml:space="preserve">
+    <value>Wood</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Wood.Name" xml:space="preserve">
+    <value>pictureBox_Wood</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Wood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Wood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Wood.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox_Stone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_Stone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 270</value>
+  </data>
+  <data name="pictureBox_Stone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_Stone.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_Stone.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="pictureBox_Stone.ToolTip" xml:space="preserve">
+    <value>Stone</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Stone.Name" xml:space="preserve">
+    <value>pictureBox_Stone</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Stone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Stone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Stone.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pictureBox_Food.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_Food.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 324</value>
+  </data>
+  <data name="pictureBox_Food.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_Food.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_Food.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="pictureBox_Food.ToolTip" xml:space="preserve">
+    <value>Food</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Food.Name" xml:space="preserve">
+    <value>pictureBox_Food</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Food.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Food.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Food.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pictureBox_Gold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_Gold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 378</value>
+  </data>
+  <data name="pictureBox_Gold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_Gold.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_Gold.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="pictureBox_Gold.ToolTip" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Gold.Name" xml:space="preserve">
+    <value>pictureBox_Gold</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Gold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Gold.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Gold.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pictureBox_Weapon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_Weapon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 432</value>
+  </data>
+  <data name="pictureBox_Weapon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_Weapon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_Weapon.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="pictureBox_Weapon.ToolTip" xml:space="preserve">
+    <value>Army</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Weapon.Name" xml:space="preserve">
+    <value>pictureBox_Weapon</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Weapon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Weapon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Weapon.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="toolTip_Production.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="pictureBox_CardAny.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_CardAny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 486</value>
+  </data>
+  <data name="pictureBox_CardAny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_CardAny.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_CardAny.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="pictureBox_CardAny.ToolTip" xml:space="preserve">
+    <value>Common and/or Faction Card(s)</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardAny.Name" xml:space="preserve">
+    <value>pictureBox_CardAny</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardAny.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardAny.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardAny.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pictureBox_CardCommon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_CardCommon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 540</value>
+  </data>
+  <data name="pictureBox_CardCommon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_CardCommon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_CardCommon.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="pictureBox_CardCommon.ToolTip" xml:space="preserve">
+    <value>Common Card(s) only</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardCommon.Name" xml:space="preserve">
+    <value>pictureBox_CardCommon</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardCommon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardCommon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardCommon.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBox_CardFaction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox_CardFaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 594</value>
+  </data>
+  <data name="pictureBox_CardFaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pictureBox_CardFaction.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox_CardFaction.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="pictureBox_CardFaction.ToolTip" xml:space="preserve">
+    <value>Faction Card(s) only</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardFaction.Name" xml:space="preserve">
+    <value>pictureBox_CardFaction</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardFaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardFaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_CardFaction.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBox_ProdWorker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 175</value>
+  </data>
+  <data name="textBox_ProdWorker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdWorker.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="textBox_ProdWorker.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWorker.Name" xml:space="preserve">
+    <value>textBox_ProdWorker</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWorker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWorker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWorker.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox_ProdWood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 229</value>
+  </data>
+  <data name="textBox_ProdWood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdWood.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="textBox_ProdWood.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWood.Name" xml:space="preserve">
+    <value>textBox_ProdWood</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWood.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox_ProdStone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 283</value>
+  </data>
+  <data name="textBox_ProdStone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdStone.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="textBox_ProdStone.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdStone.Name" xml:space="preserve">
+    <value>textBox_ProdStone</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdStone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdStone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdStone.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_ProdFood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 337</value>
+  </data>
+  <data name="textBox_ProdFood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdFood.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="textBox_ProdFood.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdFood.Name" xml:space="preserve">
+    <value>textBox_ProdFood</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdFood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdFood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdFood.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBox_ProdGold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 391</value>
+  </data>
+  <data name="textBox_ProdGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdGold.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="textBox_ProdGold.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdGold.Name" xml:space="preserve">
+    <value>textBox_ProdGold</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdGold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdGold.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdGold.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox_ProdWeapon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 445</value>
+  </data>
+  <data name="textBox_ProdWeapon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdWeapon.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="textBox_ProdWeapon.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWeapon.Name" xml:space="preserve">
+    <value>textBox_ProdWeapon</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWeapon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWeapon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdWeapon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox_ProdCardAny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 499</value>
+  </data>
+  <data name="textBox_ProdCardAny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdCardAny.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="textBox_ProdCardAny.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardAny.Name" xml:space="preserve">
+    <value>textBox_ProdCardAny</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardAny.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardAny.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardAny.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_ProdCardCommon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 553</value>
+  </data>
+  <data name="textBox_ProdCardCommon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdCardCommon.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="textBox_ProdCardCommon.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardCommon.Name" xml:space="preserve">
+    <value>textBox_ProdCardCommon</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardCommon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardCommon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardCommon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox_ProdCardFaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 607</value>
+  </data>
+  <data name="textBox_ProdCardFaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="textBox_ProdCardFaction.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="textBox_ProdCardFaction.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardFaction.Name" xml:space="preserve">
+    <value>textBox_ProdCardFaction</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardFaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardFaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_ProdCardFaction.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -448,13 +967,22 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>782, 433</value>
+    <value>882, 653</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 480</value>
+    <value>900, 700</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Imperial Settlers Campaign Companion</value>
+  </data>
+  <data name="&gt;&gt;toolTip_Production.Name" xml:space="preserve">
+    <value>toolTip_Production</value>
+  </data>
+  <data name="&gt;&gt;toolTip_Production.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

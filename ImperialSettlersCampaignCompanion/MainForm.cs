@@ -31,14 +31,6 @@ namespace ImperialSettlersCampaignCompanion
             }
         }
 
-        private void DisplayCampaign()
-        {
-            textBox_CampaignName.Text = Campaign.Name;
-            textBox_Chapter.Text = Campaign.Chapter.ToString();
-            textBox_PlayerFaction.Text = Campaign.PlayerFaction.Name;
-            textBox_ForeignFaction.Text = Campaign.ForeignFaction.Name;
-        }
-
         private void button_NewCampaign_Click(object sender, EventArgs e)
         {
             using(NewCampaignForm ncf = new NewCampaignForm())
@@ -66,6 +58,40 @@ namespace ImperialSettlersCampaignCompanion
         private void button_GameReport_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void DisplayCampaign()
+        {
+            #region Campaign Info
+            textBox_CampaignName.Text = Campaign.Name;
+            textBox_Chapter.Text = Campaign.Chapter.ToString();
+            textBox_PlayerFaction.Text = Campaign.PlayerFaction.Name;
+            textBox_ForeignFaction.Text = Campaign.ForeignFaction.Name;
+            #endregion
+
+            #region Production
+            DisplayProductionField(textBox_ProdWorker, Campaign.ProdWorker, "");
+            DisplayProductionField(textBox_ProdWood, Campaign.ProdWood, "");
+            DisplayProductionField(textBox_ProdStone, Campaign.ProdStone, "");
+            DisplayProductionField(textBox_ProdFood, Campaign.ProdFood, "");
+            DisplayProductionField(textBox_ProdGold, Campaign.ProdGold, "");
+            DisplayProductionField(textBox_ProdWeapon, Campaign.ProdWeapon, "");
+            DisplayProductionField(textBox_ProdCardAny, Campaign.ProdCardAny, "");
+            DisplayProductionField(textBox_ProdCardCommon, Campaign.ProdCardCommon, "");
+            DisplayProductionField(textBox_ProdCardFaction, Campaign.ProdCardFaction, "");
+            #endregion
+        }
+
+        private void DisplayProductionField(TextBox tb, int prodValue, string prodDetail)
+        {
+            if (prodValue > 0)
+            {
+                tb.Text = prodValue.ToString();
+            }
+            if (!string.IsNullOrEmpty(prodDetail))
+            {
+                toolTip_Production.SetToolTip(tb, prodDetail);
+            }
         }
     }
 }
